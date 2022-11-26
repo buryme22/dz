@@ -7,7 +7,7 @@
 // Console.WriteLine("Введи второе число: ");
 
 // int num2 = Convert.ToInt32(Console.ReadLine());
- 
+
 // if (num1 > num2) 
 // {
 //     Console.WriteLine($"Число {num1} больше, чем {num2}");
@@ -44,24 +44,49 @@
 // Console.WriteLine($"Максимальное из введенных чисел = {max}");
 
 
-int a;
+
+
+// int a;
+
+// Console.WriteLine("Введите число: ");
+
+// a = Convert.ToInt32(Console.ReadLine()); 
+
+// if (a % 2 == 0)
+
+// {
+
+// Console.WriteLine("Четное число");
+
+// }
+
+// else
+
+// {
+
+// Console.WriteLine("Нечетное");
+
+// }
+
 
 Console.WriteLine("Введите число: ");
 
-a = Convert.ToInt32(Console.ReadLine()); 
- 
-if (a % 2 == 0)
+int num = Convert.ToInt32(Console.ReadLine());
+        
+int res = 1;
+       
+if (res == 1)
 
 {
-
-Console.WriteLine("Четное число");
-           
+    res += 1;
 }
 
-else
+while (res <= num)
 
 {
 
-Console.WriteLine("Нечетное");
+Console.WriteLine(res);
+
+res += 2;
 
 }
